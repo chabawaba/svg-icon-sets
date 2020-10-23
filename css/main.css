@@ -16,6 +16,14 @@ body {
   color: white;
 }
 
+p {
+  font-size: 1rem;
+  padding: .25rem;
+  margin: 0;
+  font-weight: normal;
+
+}
+
 h2 {
   font-size: 2rem;
 }
@@ -26,4 +34,20 @@ h3 {
 
 section {
   display: grid;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  stroke: #ff9500;
+  stroke-width: 3px;
+  color: white;
+  height: 8em;
+  width: 8em;
+  margin: 0;
+  position:
 }
